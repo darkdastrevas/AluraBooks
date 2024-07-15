@@ -1,0 +1,18 @@
+hr {
+    margin: 0;
+}
+
+.rodape {
+    background-color: var(--branco);
+}
+
+.rodape__titulo {
+    padding: 1em;
+    text-align: center;
+}
+
+@media screen and (min-width: 1728px) {
+    .rodape__titulo {
+        font-size: 2rem;
+    }
+}
